@@ -1,17 +1,16 @@
 {
   "name": "task-tracker-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool to track and manage tasks",
   "main": "index.js",
+  "bin": {
+    "task-cli": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "alduran",
   "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "eslint": "^9.9.1",
-    "globals": "^15.9.0"
-  }
+  "devDependencies": {}
 }
